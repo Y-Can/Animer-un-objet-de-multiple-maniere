@@ -1,0 +1,25 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+.b1{
+    background-color: violet;
+}
+.b2{
+    background-color: teal;
+}
+
+img{
+    object-fit: cover;
+    height: 600px;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
